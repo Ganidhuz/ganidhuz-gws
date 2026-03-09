@@ -6,11 +6,11 @@
 
 > Google's own CLI. Multi-account. The way it should've shipped.
 
-OpenClaw's built-in Google integration is great — but if you've ever hit inconsistency issues with Gmail or Drive, you're not alone. [GWS](https://github.com/nicholasgasior/gws) is Google's own official CLI, and it's rock solid.
+OpenClaw's built-in Google integration is great, but if you've ever hit inconsistency issues with Gmail or Drive, you're not alone. [gas](https://github.com/googleworkspace/cli) is Google's own official CLI, and it's rock solid.
 
 There's just one problem: Google removed native multi-account support from it. 😉
 
-This skill patches that gap — letting you seamlessly switch between any number of Google accounts without re-logging or token collisions.
+This skill patches that gap, letting you seamlessly switch between any number of Google accounts without re-logging or token collisions. It also pairs nicely with [gogcli](https://github.com/steipete/gogcli) if you want another handy Google-focused CLI in your toolbox.
 
 ---
 
