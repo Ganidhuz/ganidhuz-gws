@@ -4,19 +4,22 @@
 
 # 🗂️ ganidhuz-gws
 
-> The multi-account Google Workspace CLI setup Google never gave you.
+> Google's own CLI. Multi-account. The way it should've shipped.
 
-Manage Gmail, Drive, Calendar, Docs, and Sheets across multiple Google accounts — from one machine, with zero token collisions. No juggling, no re-logging, no mess.
+OpenClaw's built-in Google integration is great — but if you've ever hit inconsistency issues with Gmail or Drive, you're not alone. [GWS](https://github.com/nicholasgasior/gws) is Google's own official CLI, and it's rock solid.
 
-Built because Google's own tooling doesn't handle multi-account workflows without things breaking. 😉
+There's just one problem: Google removed native multi-account support from it. 😉
+
+This skill patches that gap — letting you seamlessly switch between any number of Google accounts without re-logging or token collisions.
 
 ---
 
 ## ✨ Features
 
-- **Multiple accounts, zero collisions** — each account gets its own isolated credentials and runtime
+- **Fills the gap Google left** — multi-account support GWS dropped, restored
 - **One wrapper per account** — `gws-work`, `gws-personal`, `gws-throwaway` — just works
 - **Full Google Workspace coverage** — Gmail, Drive, Calendar, Docs, Sheets
+- **More reliable than built-in integrations** — uses Google's own official CLI under the hood
 - **OpenClaw skill** — plug-and-play with [OpenClaw](https://openclaw.ai)
 - **No manual env vars** — wrappers handle everything automatically
 
